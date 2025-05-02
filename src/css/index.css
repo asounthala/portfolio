@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&display=swap');
 @import "tailwindcss";
 @import "./satoshi.css";
+
+body, html {
+    background-color: #F8EEDF;
+}
 
 @theme {
     --font-satoshi-light: 'Satoshi-Light', sans-serif;
@@ -7,4 +12,5 @@
     --font-satoshi: 'Satoshi-Regular', sans-serif;
     --font-satoshi-bold: 'Satoshi-Bold', sans-serif;
     --font-satoshi-black: 'Satoshi-Black', sans-serif;
+    --font-playwrite: 'Playwrite RO', sans-serif;
 }
