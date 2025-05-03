@@ -24,7 +24,7 @@ const Navbar = () => {
       </a>
 
       {isMobile ? <HamburgerMenu /> : 
-        <div className='font-satoshi-bold text-2xl text-slate-900 '>
+        <div className='font-satoshi-medium text-2xl text-slate-900 '>
           <ul className='flex space-x-2 '>
             <li className='inline-block px-4 py-2 hover:underline'>
               <a href="/">adrian</a>
