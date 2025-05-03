@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav className='flex justify-between p-8 px-9'>
 
       <a href="/">
-        <img src="src/assets/icons/logo.svg" alt="logo" className='w-10 h-10 '/>
+        <img src="src/assets/icons/logo.svg" alt="logo" className='w-12 h-12 md:w-15 md:h-15 '/>
       </a>
 
       {isMobile ? <HamburgerMenu /> : 
