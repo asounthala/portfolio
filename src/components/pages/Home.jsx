@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../ui/navbar'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -18,10 +19,10 @@ const Home = () => {
             <img src="src/assets/images/portrait.png" alt="arrow" className='w-64 md:w-[500px]'/>
         </div>
       </div>
-      <a href="#projects" 
+      <Link to="/projects" 
         className='text-neutral-600 hover:underline text-lg md:text-xl absolute bottom-7 right-5'>
         &#123; go to projects  &#125; 
-      </a>
+      </Link>
     </div>
   )
 }

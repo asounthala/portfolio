@@ -3,6 +3,7 @@ import React from 'react'
 import { useState, useEffect, useRef } from 'react'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
+import { Link } from 'react-router-dom';
 
 const HamburgerMenu = () => {
     const menu = useRef(null)
@@ -71,16 +72,20 @@ const HamburgerMenu = () => {
             >
                 <ul className='h-screen flex flex-col items-center justify-start pt-55 gap-10 text-4xl font-satoshi-bold'>
                     <li>
-                        <a href="/" className='text-netural-50 hover:text-emerald-700'>&#123; adrian &#125;</a>
+                        <Link to="/" className='text-netural-50 hover:text-emerald-700'>&#123; adrian &#125;
+                        </Link>
                     </li>
                     <li>
-                        <a href="/projects" className='text-netural-50 hover:text-emerald-700'>&#123; projects &#125;</a>
+                        <Link to="/projects" className='text-netural-50 hover:text-emerald-700'>&#123; projects &#125;
+                        </Link>
                     </li>
                     <li>
-                        <a href="/about" className='text-netural-50 hover:text-emerald-700'>&#123; about &#125;</a>
+                        <Link to="/about" className='text-netural-50 hover:text-emerald-700'>&#123; about &#125;
+                        </Link>
                     </li>
                     <li>
-                        <a href="/contact" className='text-netural-50 hover:text-emerald-700'>&#123; contact &#125;</a>
+                        <Link to="/contact" className='text-netural-50 hover:text-emerald-700'>&#123; contact &#125;
+                        </Link>
                     </li>
                 </ul>
             </div>
