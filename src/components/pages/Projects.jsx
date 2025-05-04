@@ -4,8 +4,10 @@ import Navbar from '../ui/navbar'
 const Projects = () => {
   return (
     <>
-        <Navbar />
-        <div>Projects</div>
+      <Navbar />
+      <div className='font-satoshi md:max-w-[900px] mx-auto'>
+          <h1 className='flex justify-center font-satoshi-black text-6xl'>projects</h1>
+      </div>
     </>
   )
 }

@@ -18,7 +18,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <nav className='flex justify-between p-8 px-9 md:max-w-[900px] mx-auto'>
+    <nav className='flex justify-between p-8 px-9 md:max-w-[1000px] mx-auto'>
 
       <Link to="/">
         <img src="src/assets/icons/logo.svg" alt="logo" className='w-12 h-12 md:w-15 md:h-15 '/>
