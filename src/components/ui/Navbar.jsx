@@ -30,10 +30,10 @@ const Navbar = () => {
               <a href="/">adrian</a>
             </li>
             <li className='inline-block px-4 py-2 hover:underline'>
-              <a href="/about">projects</a>
+              <a href="/projects">projects</a>
             </li>
             <li className='inline-block px-4 py-2 hover:underline'>
-              <a href="/services">about</a>
+              <a href="/about">about</a>
             </li>
             <li className='inline-block px-4 py-2 hover:underline'>
               <a href="/contact">contact</a>
