@@ -39,7 +39,7 @@ const HamburgerMenu = () => {
                     menu.current,
                     { y: -menu.current.offsetHeight },
                     {
-                        y: 0, duration: 1,
+                        y: 0, duration: 0.8,
                         ease: 'power3.out'
                     }
                 );
