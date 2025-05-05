@@ -32,7 +32,7 @@ const Navbar = () => {
               isActive ? 'opacity-50' : null}>adrian</NavLink>
             </li>
             <li className='inline-block px-4 py-2 hover:underline'>
-              <NavLink to="/projects" className={({ isActive }) =>      isActive ? 'opacity-50' : null}>projects</NavLink>
+              <NavLink to="/projects" className={({ isActive }) => isActive ? 'opacity-50' : null}>projects</NavLink>
             </li>
             <li className='inline-block px-4 py-2 hover:underline'>
               <NavLink to="/about" className={({ isActive }) => isActive ? 'opacity-50' : null}>about</NavLink>

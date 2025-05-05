@@ -3,7 +3,7 @@ import React from 'react'
 import { useState, useEffect, useRef } from 'react'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const HamburgerMenu = () => {
     const menu = useRef(null)
@@ -72,20 +72,20 @@ const HamburgerMenu = () => {
             >
                 <ul className='h-screen flex flex-col items-center justify-start pt-55 gap-10 text-4xl font-satoshi-bold'>
                     <li>
-                        <Link to="/" className='text-netural-50 hover:text-emerald-700'>&#123; adrian &#125;
-                        </Link>
+                        <NavLink to="/" className={({ isActive }) => isActive ? 'opacity-20' : null}>&#123; adrian &#125;
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/projects" className='text-netural-50 hover:text-emerald-700'>&#123; projects &#125;
-                        </Link>
+                        <NavLink to="/projects" className={({ isActive }) => isActive ? 'opacity-20' : null}>&#123; projects &#125;
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/about" className='text-netural-50 hover:text-emerald-700'>&#123; about &#125;
-                        </Link>
+                        <NavLink to="/about" className={({ isActive }) => isActive ? 'opacity-20' : null}>&#123; about &#125;
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/contact" className='text-netural-50 hover:text-emerald-700'>&#123; contact &#125;
-                        </Link>
+                        <NavLink to="/contact" className={({ isActive }) => isActive ? 'opacity-20' : null}>&#123; contact &#125;
+                        </NavLink>
                     </li>
                 </ul>
             </div>
