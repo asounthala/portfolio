@@ -11,7 +11,7 @@ const Home = () => {
           <div className='flex flex-col justify-center pt-5 px-5'>
             <h2 className='text-3xl md:text-4xl font-playwrite'> hi there!</h2>
             <h1 className='text-5xl md:text-6xl font-satoshi-black'>i'm <span className='text-emerald-700' >Adrian</span>.</h1>
-            <p className='text-lg md:text-xl pt-3 md:w-2/3'>
+            <p className='text-lg md:text-xl pt-3 md:w-2/3 text-neutral-600'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
