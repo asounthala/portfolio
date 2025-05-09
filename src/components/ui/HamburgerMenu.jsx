@@ -5,7 +5,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { NavLink } from 'react-router-dom';
 
-const HamburgerMenu = () => {
+const HamburgerMenu = React.memo(() => {
     const menu = useRef(null)
     const [isOpen, setIsOpen] = useState(false)
 
@@ -92,6 +92,5 @@ const HamburgerMenu = () => {
 
         </div>
     )
-}
-
+})
 export default HamburgerMenu
