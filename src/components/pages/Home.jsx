@@ -17,7 +17,7 @@ const Home = () => {
             </p>
           </div>
           <div className='flex justify-center pt-10 md:pr-15'>
-            <img src="src/assets/images/portrait.png" alt="arrow" className='w-64 md:w-[500px]' />
+            <img src="src/assets/images/portrait.png" alt="self portrait" className='w-64 md:w-[500px]' />
           </div>
         </div>
         <Link to="/projects"
