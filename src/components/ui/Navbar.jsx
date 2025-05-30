@@ -21,7 +21,9 @@ const Navbar = () => {
     <nav className='flex justify-between p-8 px-9 md:max-w-[1000px] mx-auto'>
 
       <NavLink to="/">
-        <img src="src/assets/icons/logo.svg" alt="logo" className='w-12 h-12 md:w-15 md:h-15 '/>
+        <h1 className='text-3xl pt-2 font-satoshi-medium text-slate-900 hover:underline'>
+          adrian sounthala
+        </h1>
       </NavLink>
 
       {isMobile ? <HamburgerMenu /> : 
