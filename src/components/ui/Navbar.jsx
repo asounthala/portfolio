@@ -18,10 +18,10 @@ const Navbar = () => {
   }, [])
 
   return (
-    <nav className='flex justify-between p-8 px-9 md:max-w-[1000px] mx-auto'>
+    <nav className='flex justify-between p-8 px-5 md:max-w-[1000px] mx-auto'>
 
       <NavLink to="/">
-        <h1 className='text-3xl pt-2 font-satoshi-medium text-slate-900 hover:underline'>
+        <h1 className='text-2xl md:text-3xl pt-2 font-satoshi-medium text-slate-900 hover:underline'>
           adrian sounthala
         </h1>
       </NavLink>
